@@ -1,0 +1,13 @@
+{
+  "id": "alert-001",
+  "rule_id": "AUTH-001",
+  "rule_name": "SSH brute-force followed by successful login",
+  "severity": "high",
+  "timestamp": "2024-05-01T10:00:25+00:00",
+  "description": "Three failed SSH logins followed by successful root login from 185.220.101.5",
+  "related_event_ids": ["e1","e2","e3","e4"],
+  "host": "prod-web01",
+  "user": "root",
+  "src_ip": "185.220.101.5",
+  "mitre_techniques": ["T1110.001"]
+}
